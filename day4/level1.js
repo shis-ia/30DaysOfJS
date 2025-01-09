@@ -15,13 +15,13 @@ if (myage > yourage){
     console.log('Your age is greater than mine')
 }*/
 
-let num = 20
+/*let num = 20
 let rem = (num% 2)
 if (rem > 0)
     {console.log(`${num} is odd`)}
 else{
     console.log(`${num} is even`)
-}
+}*/
 
 //let num = 15
 //let rem =(num%2)

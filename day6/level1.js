@@ -61,18 +61,63 @@ sum =0
 for (var i = 0; i <= 100; i++)
     if (i % 2 == 0)
         sum = sum + i
-        console.log(sum)
-
-//sum of odd numbers from 1 -100
- sum = 0
-for (var i = 0;i <= 100; i++)
-    if (i % 2 != 0)
-        sum = sum + i
         console.log(sum)*/
 
+//sum of odd numbers from 1 -100
+/*arry = []
+arryOdd=[]
+sum = 0
 
-        
-        
+for (var i = 0;i <= 100; i++){
+   if (i % 2 == 0)
+   sum = sum + i
+arry.push(sum)
+   console.log(arry)}
+   else {
+       if (i % 2 != 0)
+           sum = sum +1
+       arryOdd.push(sum)
+       console.log(arryOdd)
+   }
+   //if (i % 2 != 0)
+      //sum = sum + i
+      //console.log(sum)*/
+
+/*let ranNum = Math.floor(Math.random()*6)
+       num=[]
+       //console.log(num)
+       for (var i = 1; i <= ranNum;i++)
+        num.push(i)
+        console.log(num)*/
+
+    //LEVEL 2 NO 4
+const countries = [
+    'Albania',
+    'Bolivia',
+    'Canada',
+    'Denmark',
+    'Ethiopia',
+    'Finland',
+    'Germany',
+    'Hungary',
+    'Ireland',
+    'Japan',
+    'Kenya'
+]
+
+for (let i = 0; i<= countries.lenght;i++)
+    countries(i)
+    console.log(countries)
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -114,41 +114,17 @@ while (arry.length < 5) {
     var r = parseInt(Math.random() * 9)
     if (arry.indexOf(r) === -1) arry.push(r) + 1
 } console.log(arry)*/
-   
-let  randCharacters = ['a','b','c','d',1,2,4,5];
+           //Q15
+/*let  randCharacters = ['a','b','c','d',1,2,4,5];
 let results = "";
 
 for (let i = 0;i <= 6;i++){
    let randInex = parseInt(Math.random() * randCharacters.length);
    results = results + randCharacters[randInex];
-} console.log(results)
+} console.log(results)*/
 
    
 
-
-
-
-
-
-/*//LEVEL 2 NO 4
-const countries = [
-    'Albania',
-    'Bolivia',
-    'Canada',
-    'Denmark',
-    'Ethiopia',
-    'Finland',
-    'Germany',
-    'Hungary',
-    'Ireland',
-    'Japan',
-    'Kenya'
-]
-
-for (let i = 0; i<= countries.lenght;i++)
-    countries(i)
-    console.log(countries)*/
-    
 
 
 

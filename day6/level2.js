@@ -33,9 +33,9 @@ for (let i = 0; i < 3; i++) {
 } 
 console.log(answer)*/
 
-       
-  
-  const countries = [
+
+
+const countries = [
   'Albania',
   'Bolivia',
   'Canada',
@@ -45,28 +45,71 @@ console.log(answer)*/
   'Germany',
   'Hungary',
   'Ireland',
+  'Iceland',
   'Japan',
   'Kenya'
 ]
-     // Q4
-let result = '["'
+
+
+        //Q6
+/*let result = []
+
+for (let i = 0; i<countries.length;i++){
+  let countriesdetails = []
+ countriesdetails.push(countries[i])
+  let countriesshortform = countries[i].substr(0,3).toUpperCase();
+  countriesdetails.push(countriesshortform)
+  let countrieslength = countries[i].length
+  countriesdetails.push(countrieslength)
+  result.push(countriesdetails)
+  }
+
+console.log(result)*/
+         //Q8
+/*let result = []
+ 
+for(let i = 0;i<countries.length;i++){
+let countriesWithIa = countries[i].includes('ia')
+if (countriesWithIa){
+  result.push(countries[i])
+}
+
+}
+
+console.log(result)*/
+      //Q7
+/*let result = []
+
+for(let i=0;i<countries.length;i++){
+  let countriesWithLand = countries[i].includes('land')
+  if (countriesWithLand){
+    result.push(countries[i])
+  }
+}
+
+console.log(result)*/
+
+
+
+
+//console.log(result)
+
+// Q4
+/*let result = '["'
 for (let i = 0;i < 11;i++){
  let upper = countries[i].toUpperCase();
  if (i< 10){
  result = result + upper + '" ,"'
  } else{
-  result = result + upper + '"]'
+result = result + upper + '"]'
  }
-} 
-console.log(result)
+}
+console.log(result)*/
+ 
 
 
 
-
-
-
-
-    //Q5
+//Q5
 /*let result = '['
 for (let i = 0;i< countries.length; i++){
   let indexes = countries[i].length;
@@ -78,3 +121,5 @@ for (let i = 0;i< countries.length; i++){
 
 }
 console.log(result)*/
+
+

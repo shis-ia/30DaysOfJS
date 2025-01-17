@@ -98,7 +98,7 @@ console.log(sum)*/
 
 
             Q4
-/*   //pattern of #
+ /*  //pattern of #
 var row = 7;
 //var cols = 5;
 for (let i = 1; i <= 7; i++) {

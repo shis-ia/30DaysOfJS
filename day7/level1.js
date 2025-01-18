@@ -109,7 +109,7 @@ function bodyMassIndex(weight, height) {
 bodyMassIndex(280, 8)*/
 
 //Q14
-function checkSeason(month){
+/*function checkSeason(month){
 switch (month) {
     case 'January':
         console.log('Summer')
@@ -147,4 +147,16 @@ switch (month) {
         console.log('Spring')
     }
 }
-checkSeason('January')
+checkSeason('January')*/
+
+
+let maxLength = 0
+let result = " "
+
+function findMax(num1,nub2,num3){
+    for (let i = 0;i < 3;i++)
+        if ([i].length > maxLength){
+            maxLength = [i].length
+        }
+    }
+findMax(5,10,20)

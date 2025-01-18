@@ -123,3 +123,11 @@ for (let i = 0;i< countries.length; i++){
 console.log(result)*/
 
 
+function printFullName(){
+  let firstName = 'Charity'
+  let lastName ='Shisia'
+  let space = " "
+  let fullName = firstName + space + lastName
+  console.log(fullName)
+}
+printFullName()

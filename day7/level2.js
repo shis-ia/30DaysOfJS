@@ -107,26 +107,71 @@ console.log(sumOfEven([1,2,3,4,5,6,7,8,9]))*/
 
 //Q14
 
-function sumOfNum(array){
+/*function sumOfNum(array){
   sum = 0
   for (let i = 0;i<array.length;i++)
   sum = sum + array[i]
   return sum
 }
-console.log(sumOfNum([1,2,3,9,8]))
+console.log(sumOfNum([1,2,3,9,8]))*/
 
 
 
 //Q15
-
-let characters = ['a','b','c','d','e','f','g','h',1,2,3,4,5,6,7,8,9,'#','$','@']
-function randomUserIp(){
+let result = ''
+function randomUserIp(array){
   for (let i = 0;i < 6;i++){
-  let random = parseInt(Math.random() * characters.length())
-  return random
-    
+  let random = parseInt(Math.random() * array.length)
+  result += array[random]
+   
   }
-  
+  return result
+}
+console.log(randomUserIp(['a','b','c','d','e','f','g','h',1,2,3,4,5,6,7,8,9]))
+
+
+//Q16
+
+let address = ''
+
+function randomMacAddress(array){
+  for(let i =0;i < 12;i++){
+    let icon = ':'
+    let randAddress = parseInt(Math.random()* array.length);
+    address += array[randAddress] + icon
+   
+  }
+  return address
 }
 
-console.log(randomUserIp())
+console.log(randomMacAddress([1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f']))
+
+
+//Q17
+let randHexaDec = ''
+
+function randomHexaNumberGenerator(array){
+  for(let i =0;i < 7;i++){
+    let randHexaNum = parseInt(Math.random()* array.length);
+    randHexaDec += array[randHexaNum] 
+   
+  }
+  return randHexaDec
+}
+
+console.log(randomHexaNumberGenerator([1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f','!','@','$','#']))
+
+
+//Q18
+let resultID = ''
+
+function userIdGenerator(array){
+  for(let i =0;i < 7;i++){
+    let randHexaNum = parseInt(Math.random()* array.length);
+    resultID += array[randHexaNum] 
+   
+  }
+  return resultID
+}
+
+console.log(userIdGenerator([1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f','!','@','$','#','A','B','C','D','E','F']))

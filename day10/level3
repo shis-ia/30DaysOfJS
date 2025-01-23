@@ -1,0 +1,27 @@
+//Q1
+const countryies = ['Finland', 'Estonia', 'Sweden', 'Denmark', 'Norway']
+let [Fin,Est,Swe,Den,Nor] = countryies
+console.log(Fin,Est,Swe,Den,Nor)
+
+/*//Q2
+const student = ['David', ['HTM', 'CSS', 'JS', 'React'], [98, 85, 90, 95]]
+let[names,[...skills],[score1,score2,score3,score4]] =student
+console.log(names,skills,score3,score4)*/
+
+//Q3
+const students = [
+    ['David', ['HTM', 'CSS', 'JS', 'React'], [98, 85, 90, 95]],
+    ['John', ['HTM', 'CSS', 'JS', 'React'], [85, 80, 85, 80]]
+]
+
+
+
+  let arrayToObject1 = Object.assign({},['David', ['HTM', 'CSS', 'JS', 'React'], [98, 85, 90, 95]])
+  let arrayToObject2 = Object.assign({},['John', ['HTM', 'CSS', 'JS', 'React'], [85, 80, 85, 80]])
+  console.log([arrayToObject1,arrayToObject2])
+
+
+
+
+
+// console.log(Object.assign({},['a','b','c','d']))

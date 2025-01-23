@@ -91,9 +91,9 @@ console.log(sumOfNumbers([1,2,3,4]))*/
 //Q11
 
 //let numbers = [1,2,3,4,5,6,7,8,9]
-/*function sumOfEven(array){
+function sumOfEven(6){
   let sum = 0
-  for (let i =0;i< array.length;i++){
+  for (let i =0;i< 6;i++){
     //sum = sum + array[i]
     if (i % 2 > 0)  {
       sum = sum + array[i]
@@ -101,7 +101,7 @@ console.log(sumOfNumbers([1,2,3,4]))*/
     }
   }
 }
-console.log(sumOfEven([1,2,3,4,5,6,7,8,9]))*/
+console.log(sumOfEven())
 
 
 
@@ -117,7 +117,7 @@ console.log(sumOfNum([1,2,3,9,8]))*/
 
 
 
-//Q15
+/*//Q15
 let result = ''
 function randomUserIp(array) {
   for (let i = 0; i < 6; i++) {
@@ -174,5 +174,5 @@ function userIdGenerator(array) {
   return resultID
 }
 
-console.log(userIdGenerator([1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b', 'c', 'd', 'e', 'f', '!', '@', '$', '#', 'A', 'B', 'C', 'D', 'E', 'F']))
+console.log(userIdGenerator([1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b', 'c', 'd', 'e', 'f', '!', '@', '$', '#', 'A', 'B', 'C', 'D', 'E', 'F']))*/
 

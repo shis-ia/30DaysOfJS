@@ -1,12 +1,3 @@
-// const txt = 'This regular expression example was made in December 6,  2019.'
-// const pattern = /\b\w{4}\b/g  //  exactly four character words
-// const matches = txt.match(pattern)
-// console.log(matches)  //['This', 'made', '2019']
-
-// const txt = 'This regular expression example was made in December 6,  2019.'
-// const pattern = /\b[a-zA-Z]{4}\b/g  //  exactly four character  words without numbers
-// const matches = txt.match(pattern)
-// console.log(matches)  //['This', 'made']
 
 //Q1
 // const txt = 'He earns 4000 euro from salary per month, 10000 euro annual bonus, 5500 euro online courses per month.'
@@ -26,9 +17,9 @@
 
 
 // //Q2
-const text = 'The position of some particles on the horizontal x-axis -12, -4, -3 and -1 in the negative direction, 0 at origin, 4 and 8 in the positive direction.'
-const parttern = /-?\d/g
-const match = text.match(parttern)
+const text = 'The position of some particles on the horizontal x-axis -12, -4, -6 and -1 in the negative direction, 0 at origin, 4 and 8 in the positive direction.'
+let parttern = /-?\d/g
+let match = text.match(parttern)
 console.log(match)
 
 
@@ -43,17 +34,26 @@ let intNum7 = parseInt(num7)
 let intNum8 = parseInt(num8)
 
 // console.log([intNum1, intNum2, intNum3, intNum4, intNum5, intNum6, intNum7, intNum8])
- let intParttern = [intNum1, intNum2, intNum3, intNum4, intNum5, intNum6, intNum7, intNum8]
-let sortArray = intParttern.sort()
-console.log(sortArray)
+let intParttern = [intNum1, intNum2, intNum3, intNum4, intNum5, intNum6, intNum7, intNum8]
 
-let sum = intNum8 - intNum3
-console.log(sum)
+let sortedArray = intParttern.sort(function (a, b) { return a - b })
+console.log(sortedArray)
+
+let defrence = sortedArray[7] - sortedArray[0]
+console.log(defrence)
+
+
 //Q3
 
+function validString(string) {
+    let txt = string
+    let parttern = /^[a-zA-Z]_?[A-Za-z0-9]/g
+    let result = parttern.test(string)
 
+    return result
+}
 
-
+console.log(validString('1Firstname'))
 
 
 

@@ -25,20 +25,42 @@
 
 
 
-//Q2
+// //Q2
 const text = 'The position of some particles on the horizontal x-axis -12, -4, -3 and -1 in the negative direction, 0 at origin, 4 and 8 in the positive direction.'
 const parttern = /-?\d/g
 const match = text.match(parttern)
 console.log(match)
+
+
 let [num1, num2, num3, num4, num5, num6, num7, num8] = match
 let intNum1 = parseInt(num1)
 let intNum2 = parseInt(num2)
 let intNum3 = parseInt(num3)
-let intNum4 = parseInt(num1)
-let intNum5 = parseInt(num2)
-let intNum6 = parseInt(num3)
-let intNum7 = parseInt(num1)
-let intNum8 = parseInt(num2)
+let intNum4 = parseInt(num4)
+let intNum5 = parseInt(num5)
+let intNum6 = parseInt(num6)
+let intNum7 = parseInt(num7)
+let intNum8 = parseInt(num8)
+
+// console.log([intNum1, intNum2, intNum3, intNum4, intNum5, intNum6, intNum7, intNum8])
+ let intParttern = [intNum1, intNum2, intNum3, intNum4, intNum5, intNum6, intNum7, intNum8]
+let sortArray = intParttern.sort()
+console.log(sortArray)
+
+let sum = intNum8 - intNum3
+console.log(sum)
+//Q3
 
 
-console.log(num1, num2, num3, num4, num5, num6, num7, num8)
+
+
+
+
+
+
+
+
+
+
+
+

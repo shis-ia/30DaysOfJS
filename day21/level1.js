@@ -18,6 +18,13 @@ for(let i = 0; i < paragraphs.length; i++){
     console.log(paragraphs[i])
 }
 
+
+//Q5
+// const paragraphs = document.querySelectorAll('p')
+// paragraphs[4].textContent = 'fourth paragraph'
+// console.log(paragraphs)
+
+//Q6
 // const paragraphs = document.querySelectorAll('p')
 // paragraphs[4].setAttribute('class','paragraph')
 // paragraphs[4].setAttribute('id','fourth-paragraph')

@@ -11,23 +11,48 @@ function getRandomColor() {
     }
     return color;
 }
-function changeColor(){
+function changeColor() {
     minPro.style.color = getRandomColor();
 }
 
 
- setInterval(changeColor,1000)
+setInterval(changeColor, 1000)
 
 
- let done = "Challenge"
- if(done.includes("Done")){
-    console.log("Present")
- }
+//  let done = "Challenge"
+//  if(done.includes("Done")){
+//     console.log("Present")
+//  }
 
-// function randomIntFromInterval(min, max) { // min and max included 
-//     return Math.floor(Math.random() * (max - min + 1) + min);
-//   }
+const dateTime = document.querySelector('.DateTime')
 
-//   const rndInt = randomIntFromInterval(1, 6);
-//   console.log(rndInt);
+function getDateTime() {
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const now = new Date();
+let month = months[now.getMonth()];
+function presentDay() {
+    let day = now.getDate()
+    if (day < 10) {
+        let newday = '0' + day
+        return newday
+    }
+}
 
+let year = now.getFullYear()
+let hours = now.getHours()
+let minutes = now.getMinutes()
+let seconds = now.getSeconds()
+
+let timeDate = month + ' ' + presentDay() + ',' + year + ' ' + hours + ':' + minutes + ':' + seconds
+ 
+return timeDate;
+}
+
+
+
+dateTime.textContent =getDateTime()
+
+function changeDateTimeColor() {
+    dateTime.style.backgroundColor = getRandomColor()
+}
+setInterval(changeDateTimeColor,2000)

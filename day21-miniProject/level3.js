@@ -19,40 +19,68 @@ function changeColor() {
 setInterval(changeColor, 1000)
 
 
-//  let done = "Challenge"
-//  if(done.includes("Done")){
-//     console.log("Present")
-//  }
 
 const dateTime = document.querySelector('.DateTime')
 
 function getDateTime() {
-const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-const now = new Date();
-let month = months[now.getMonth()];
-function presentDay() {
-    let day = now.getDate()
-    if (day < 10) {
-        let newday = '0' + day
-        return newday
+    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    const now = new Date();
+    let month = months[now.getMonth()];
+    function presentDay() {
+        let day = now.getDate()
+        if (day < 10) {
+            let newday = '0' + day
+            return newday
+        }
     }
+
+    let year = now.getFullYear()
+    let hours = now.getHours()
+    let minutes = now.getMinutes()
+    let seconds = now.getSeconds()
+
+    let timeDate = month + ' ' + presentDay() + ',' + year + ' ' + hours + ':' + minutes + ':' + seconds
+
+    return timeDate;
 }
 
-let year = now.getFullYear()
-let hours = now.getHours()
-let minutes = now.getMinutes()
-let seconds = now.getSeconds()
-
-let timeDate = month + ' ' + presentDay() + ',' + year + ' ' + hours + ':' + minutes + ':' + seconds
- 
-return timeDate;
-}
 
 
-
-dateTime.textContent =getDateTime()
+dateTime.textContent = getDateTime()
 
 function changeDateTimeColor() {
     dateTime.style.backgroundColor = getRandomColor()
 }
-setInterval(changeDateTimeColor,2000)
+setInterval(changeDateTimeColor, 2000)
+
+
+
+
+// function changeParagraphColor() {
+//     const paragraphs = document.querySelectorAll('.list')
+//     for(let i = 0; i < paragraphs.length; i++){
+//     let text = paragraphs[i]
+//     if (text.includes("Done")) {
+//         text.style.backgroundColor = 'green'
+//     } else if (text.includes("Ongoing")) {
+//         text.style.backgroundColor = 'yellow'
+//     } else {
+//         text.style.backgroundColor = 'red'
+//     }
+// }
+// return text
+// }
+
+
+// console.log(changeParagraphColor())
+
+const paragraphs = document.querySelectorAll('.list')
+for(let i = 0; i < paragraphs.length; i++){
+    let text = paragraphs[i]
+    let done = text.includes('Done')
+    text = done
+    // if (i == done){
+    //     text.style.backgroundColor = 'yellow'
+    // }
+    
+}

@@ -3,8 +3,9 @@
 }
 
 .wrapper {
-    /* padding-left: 320px; */
+    padding-left: 320px; 
     padding-right:600px;
+   
 }
 
 .list {
@@ -12,6 +13,7 @@
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: small;
 }
 
 .DateTime {
@@ -23,8 +25,8 @@
 }
 
 .datePad {
-    padding-left: 100px;
-    padding-right: 460px;
+    padding-left: 100px; 
+    padding-right: 150px; 
 }
 
 .subTitle {

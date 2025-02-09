@@ -54,33 +54,19 @@ function changeDateTimeColor() {
 setInterval(changeDateTimeColor, 2000)
 
 
-
-
-// function changeParagraphColor() {
-//     const paragraphs = document.querySelectorAll('.list')
-//     for(let i = 0; i < paragraphs.length; i++){
-//     let text = paragraphs[i]
-//     if (text.includes("Done")) {
-//         text.style.backgroundColor = 'green'
-//     } else if (text.includes("Ongoing")) {
-//         text.style.backgroundColor = 'yellow'
-//     } else {
-//         text.style.backgroundColor = 'red'
-//     }
-// }
-// return text
-// }
-
-
-// console.log(changeParagraphColor())
-
 const paragraphs = document.querySelectorAll('.list')
 for(let i = 0; i < paragraphs.length; i++){
     let text = paragraphs[i]
-    let done = text.includes('Done')
-    text = done
-    // if (i == done){
-    //     text.style.backgroundColor = 'yellow'
-    // }
+    let content = text.textContent
+    // console.log(content)
+    // let done = content.includes('Done')
+    // console.log(done)
+    if (content.includes('Done')){
+        text.style.backgroundColor = 'green'
+    } else if(content.includes('Ongoing')){
+        text.style.backgroundColor = 'yellow'
+    } else {
+        text.style.backgroundColor = 'red'
+    }
     
 }

@@ -1,8 +1,30 @@
+
+.places{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 6px;
+    padding-left: 180px;
+    padding-right: 180px;
+   
+}
+
 .number{
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin: 10px;
-    display: grid;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.title{
+    text-align: center;
+}
+.sub1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: larger;
+}
+.sub2{
+    text-align: center;
+    text-decoration: underline;
 }

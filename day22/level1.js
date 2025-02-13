@@ -1,17 +1,31 @@
-const values = document.querySelector('.numbers')
-let entries
-for(let i = 0; i < 101; i++){
-entries = document.createElement('div')
-entries.className = 'eachNumber'
-entries.style.fontSize = '24px'
-entries.textContent = i
-document.body.appendChild(entries)
-}
- const eachNumber = document.querySelector('.eachNumber')
-for (let i =0; i < eachNumber.length; i++){
-    if (i % 2 === 0){
-        eachNumber.style.backgroundColor = 'green'
-    } else {
-        eachNumber.style.backgroundColor = 'yellow'
+
+
+let places = document.querySelector('.places')
+// console.log(places.innerHTML)
+
+for(let i = 0; i < 102; i++){
+    number = document.createElement('div')
+    number.className = 'number'
+    number.textContent = i
+    places.appendChild(number)
+     
+
+    if(i % 2 === 0){
+        number.style.backgroundColor = 'green'
+    
+    } else{
+        number.style.backgroundColor = 'yellow'
     }
 }
+
+// console.log(places.innerHTML)
+
+
+
+
+
+
+
+
+
+

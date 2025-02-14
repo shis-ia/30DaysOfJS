@@ -18,13 +18,7 @@ for(let i = 0; i < 102; i++){
     }
 }
 
-// console.log(places.innerHTML)
-
-
-
-
-
-
+// console.log(places.innerHML
 
 
 

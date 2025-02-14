@@ -1,0 +1,40 @@
+.countriesWrrap {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+
+
+}
+
+.country {
+
+    text-align: center;
+    font-size: large;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    height: 80px;
+    width: 50px;
+    /* padding-top: 50px; */
+    border-style: solid;
+    border-color: rgb(230, 226, 226);
+    border-radius: 8px;
+    padding-right: 100px;
+    gap: 10px;
+}
+
+.sub1 {
+    text-align: center;
+}
+
+.sub2 {
+    text-align: center;
+}
+
+.paragraph1 {
+    text-align: center;
+}
+
+.paragraph2 {
+    text-align: center;
+}

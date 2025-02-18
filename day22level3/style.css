@@ -1,0 +1,132 @@
+.heading {
+    padding-left: 190px;
+}
+
+.year {
+    font-size: 60px;
+}
+
+.subheading {
+    padding-left: 290px;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.dateAndTime {
+    padding-left: 8px;
+    padding-right: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.dateAndTimeBox {
+    padding-right: 1580px; 
+    padding-left: 120px;
+}
+
+
+.list {
+    list-style: none;
+    padding-top: 5px;
+    padding-right: 800px;
+    padding-left: 220px;
+}
+
+.data {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+.d1 {
+    list-style: none;
+    display: flex;
+    gap: 200px;
+
+}
+
+.d2 {
+    list-style: none;
+    display: flex;
+    gap: 180px;
+}
+
+.d3 {
+    list-style: none;
+    display: flex;
+    gap: 155px;
+
+}
+
+.d4 {
+    list-style: none;
+    display: flex;
+    gap: 210px;
+
+}
+
+.d5 {
+    list-style: none;
+    display: flex;
+    gap: 170px;
+
+}
+
+.d6 {
+    list-style: none;
+    display: flex;
+    gap: 190px;
+
+}
+
+.d7 {
+    list-style: none;
+    display: flex;
+    gap: 160px;
+
+}
+
+.d8 {
+    list-style: none;
+    display: flex;
+    gap: 136px;
+
+}
+
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 500px; 
+}
+
+.firstPara{
+    padding-left: 220px;
+   
+}
+
+.para1{
+     padding-left: 10px; 
+}
+
+.para2{
+    padding-left: 70px; 
+}
+
+.skillsList{
+    padding-left: 200px;
+    display: flex;
+    gap: 60px; 
+    
+}
+
+.listID{
+    list-style: none;
+}
+
+.secondPara{
+    font-weight: bold;
+    font-size: large;
+    padding-left: 220px;
+}
+

@@ -72,3 +72,52 @@ for(let i = 0; i < paragraphs.length; i++){
     }
     
 }
+
+
+let keywords = [
+    'HTML',
+    'HTML5',
+    'CSS',
+    'CSS3',
+    'JS',
+    'JavaScript',
+    'ES6',
+    'Promise',
+    'async await',
+    'Database',
+    'React',
+    'React Hooks',
+    'Context API',
+    'React Router',
+    'Web Storage',
+    'localStorage',
+    'sessionStorage',
+    'Redux',
+    'Node',
+    'MongoDB',
+    'SQL',
+    'API',
+    'DOM',
+    'data science',
+    'MERN',
+    'Python',
+    'Flask',
+    'Statistics',
+    'Linear Algebra',
+    'Numpy',
+    'Pandas',
+    'Scipy',
+    'Scikit-learn',
+    'Visualization',
+    'D3.js'
+  ]
+
+  for (let i = 0; i< keywords.length; i++){
+      title = document.createElement('div')
+      title.className = 'listItems'
+      title.textContent = keywords[i]
+      document.body.appendChild(title)
+  }
+
+let ww = document.getElementsByClassName('.Keywords')
+console.log(ww)

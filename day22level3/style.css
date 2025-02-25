@@ -13,15 +13,15 @@
 }
 
 .dateAndTime {
-    padding-left: 8px;
-    padding-right: 4px;
+    padding-left: 20px;
+    /* padding-right: 10px; */
     padding-top: 6px;
     padding-bottom: 6px;
 }
 
 .dateAndTimeBox {
-    padding-right: 1580px; 
-    padding-left: 120px;
+    padding-right: 1320px;
+    padding-left: 290px;
 }
 
 
@@ -129,4 +129,3 @@
     font-size: large;
     padding-left: 220px;
 }
-

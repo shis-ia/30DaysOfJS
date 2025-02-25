@@ -1,0 +1,15 @@
+.allNumbers{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 6px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.eachNumber{
+    font-size: x-large;
+    color: white;
+     padding-left: 40px;
+    padding-right: 40px;
+   
+}
